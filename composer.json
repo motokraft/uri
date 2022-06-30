@@ -1,0 +1,29 @@
+{
+    "name": "motokraft/uri",
+    "description": "Convenient work with links",
+    "keywords": [ "html", "html5", "php", "uri" ],
+    "homepage": "https://github.com/motokraft/uri",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Motokraft",
+            "email": "valeravk230594@mail.ru",
+            "homepage": "https://github.com/motokraft",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "motokraft/object": "^1.0"
+    },
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Motokraft\\Uri\\": ""
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
